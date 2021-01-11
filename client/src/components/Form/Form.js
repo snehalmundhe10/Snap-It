@@ -52,10 +52,10 @@ const Form = ({ currentId, setCurrentId}) => {
         <Paper className={classes.paper}>
             <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}}`} 
                   onSubmit={handleSubmit}>
-                <Typography variant="h6"> {currentId ? 'Editing' : 'Creating'} a Memory</Typography>
+                <Typography variant="h6"> {currentId ? 'Edit' : 'Create'} a Mémoire</Typography>
                 <TextField 
                     name="creator" 
-                    variant="outlined" 
+                    id="standard-basic"
                     label="Creator" 
                     fullWidth
                     value={postData.creator}
@@ -63,7 +63,7 @@ const Form = ({ currentId, setCurrentId}) => {
                 />
                 <TextField 
                     name="title" 
-                    variant="outlined" 
+                    id="standard-basic"
                     label="Title" 
                     fullWidth
                     value={postData.title}
@@ -71,7 +71,7 @@ const Form = ({ currentId, setCurrentId}) => {
                 />
                 <TextField 
                     name="message" 
-                    variant="outlined" 
+                    id="standard-basic"
                     label="Message" 
                     fullWidth
                     value={postData.message}
@@ -79,7 +79,7 @@ const Form = ({ currentId, setCurrentId}) => {
                 />
                 <TextField 
                     name="tags" 
-                    variant="outlined" 
+                    id="standard-basic"
                     label="Tags" 
                     fullWidth
                     value={postData.tags}
@@ -94,15 +94,15 @@ const Form = ({ currentId, setCurrentId}) => {
                 </div>
                 <Button 
                     className={classes.buttonSubmit } 
+                    color="secondary"
                     variant="contained" 
-                    color="primary"
                     size="large"
                     type="submit"
                     fullWidth 
                     > Submit
                 </Button>
                 <Button 
-                
+                     className={classes.buttonClear } 
                     variant="contained" 
                     color="secondary"
                     size="small"

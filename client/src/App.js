@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
-import memories from './images/github2.jpg';
+import memories from './images/logo.png';
 import {useDispatch} from 'react-redux';
 import {getPosts} from './actions/posts';
 
@@ -21,7 +21,7 @@ const App = () => {
     return (
         <Container maxWidth="lg">
             <AppBar className={ classes.appBar} position="static" color="inherit">
-                <Typography className={classes.heading} variant="h2" align="center">Once Upon a Time...</Typography>
+                <Typography className={classes.heading} variant="h6" align="center">Snap'It</Typography>
                 <img className={classes.image} src={memories} alt="memories" height="60"/>
             </AppBar>
             <Grow in>
