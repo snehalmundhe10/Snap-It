@@ -18,13 +18,15 @@ A photo library app developed using MERN Stack. This application allows you to c
  
  ## How to run the application
  ####  Front-end
-``` cd client
+``` 
+  cd client
   npm install
   npm start 
 ```
   
   #### Backend
- ``` cd server
+ ``` 
+   cd server
    npm install
    npm start
  ```
