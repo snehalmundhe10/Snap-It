@@ -35,4 +35,7 @@ A photo library app developed using MERN Stack. This application allows you to c
  The backend of the application is deployed on Heroku and front-end on Netlify.
  #### Application URL - https://memoire-bank.netlify.app/
  
+ ## Author
+ Snehal Mundhe
+ 
  
