@@ -1,7 +1,7 @@
 # Snap'It
 
 ## Overview 
-A photo library app developed using MERN Stack. This application allows you to create photo library. The user can create, update, delete and like photo posts.
+A photo library app developed using MERN Stack. This application allows you to create a photo library. The user can create, update, delete and like photo memories.
 
 ## Functionality
  `Get Posts` - Return all the photo posts
