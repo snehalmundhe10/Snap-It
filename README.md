@@ -4,10 +4,10 @@
 A photo library app developed using MERN Stack. This application allows you to create a photo library. The user can create, update, delete and like photo memories.
 
 ## Functionality
- `Get Posts` - Return all the photo posts
- `Update Posts` - Update Photo posts
- `Delete Posts` - Delete Photo posts, expects and `id` to remove
- `Create Posts` - Create Photo posts
+ ` Get Posts ` - Return all the photo posts
+ ` Update Posts ` - Update Photo posts
+ ` Delete Posts ` - Delete Photo posts, expects and `id` to remove
+ ` Create Posts ` - Create Photo posts
  
  ## Tech Stack
  1. MongoDB
